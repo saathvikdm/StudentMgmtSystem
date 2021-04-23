@@ -1,0 +1,67 @@
+body {
+  background-color: var(--background-color);
+}
+
+.login-root {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  width: 90vw;
+}
+
+.login-text {
+  /* color: azure; */
+  color: var(--secondary-text-color);
+  text-align: center;
+  background-color: var(--primary-color);
+  /* padding-bottom: 5rem; */
+  border-radius: 0.1em;
+}
+
+.login-form {
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.5em;
+  background-color: var(--secondary-color);
+  padding: 3em;
+  color: var(--primary-text-color);
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.about-text {
+  color: var(--secondary-text-color);
+}
+
+.newUserForm {
+  color: var(--secondary-text-color);
+}
+
+.update-score-div {
+  /* border: 1px solid white; */
+  color: var(--secondary-text-color);
+}
+
+.tile {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.2em;
+  justify-content: center;
+  align-items: center;
+  /* color: azure; */
+  background-color: var(--tile-bg-color);
+  cursor: pointer;
+}
+
+.tile:hover {
+  box-shadow: 3px 3px rgba(136, 136, 136, 0.8);
+}
+
+.tile h2 {
+  text-align: center;
+  padding-top: 10px;
+}

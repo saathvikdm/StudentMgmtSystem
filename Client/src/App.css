@@ -1,0 +1,19 @@
+:root {
+  --background-color: rgb(9, 64, 109);
+  --primary-text-color: #121212;
+  --secondary-text-color: azure;
+  --primary-color: black;
+  --secondary-color: white;
+  --tile-bg-color: wheat;
+}
+
+body {
+  max-width: 99vw;
+  color: black;
+}
+.rootContent {
+  margin-left: 100px;
+}
+.appSidebar {
+  z-index: 999;
+}
